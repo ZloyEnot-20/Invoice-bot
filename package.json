@@ -1,6 +1,6 @@
 {
   "name": "invoice",
-  "proxy": "http://localhost:8000/",
+  "proxy": "https://invoice-server-stax.herokuapp.com/",
   "version": "1.0.0",
   "description": "",
   "main": "script.js",
