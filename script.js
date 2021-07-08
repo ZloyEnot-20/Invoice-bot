@@ -19,7 +19,7 @@ bot.command('invc', async (ctx) => {
     });
     await axios({
       method: 'get',
-      url: 'http://localhost:8000/invoice',
+      url: 'https://invoice-server-stax.herokuapp.com/invoice',
       data: {
         order_id: id,
       },
@@ -35,7 +35,7 @@ bot.command('invc', async (ctx) => {
 
     await axios({
       method: 'get',
-      url: 'http://localhost:8000/getInv',
+      url: 'https://invoice-server-stax.herokuapp.com/getInv',
       data: {},
     })
       .then(function (res) {
